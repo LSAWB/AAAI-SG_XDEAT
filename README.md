@@ -61,14 +61,18 @@ The corresponding code is located in **`Supplementary_Material/Experiments/Archi
 
 ---
 ### 🎯 Input Strategy
-In this experiment, we evaluate two different **input strategies**:
+In this experiment, we evaluate two types of **input strategies**:
 
-1. **Raw Stream**: Direct raw feature values.  
-2. **Targeted Stream**: Feature values conditioned on labels (using PLE-T & DecisionTreeEncoder).
-      - On Embeddings for Numerical Features in Tabular Deep Learning
-      - Winning the KDD cup orange challenge with ensemble selection
+1. **Raw Stream**  
+   - Direct raw feature values.  
 
-We also explore their **combinations**, such as **DFC** and **CD+CE**.
+2. **Targeted Stream**  
+   - Feature values conditioned on labels (using PLE-T & DecisionTreeEncoder).  
+   - Inspired by:
+     - *On Embeddings for Numerical Features in Tabular Deep Learning*  
+     - *Winning the KDD Cup Orange Challenge with Ensemble Selection*  
+
+We also investigate their **combinations**, such as **DFC** and **CD+CE**.
 
 ### 🏆 Final Results
 ![Input Strategy Results](Figure/Input_Strategy.png)
