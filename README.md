@@ -63,8 +63,10 @@ The corresponding code is located in **`Supplementary_Material/Experiments/Archi
 ### 🎯 Input Strategy
 In this experiment, we evaluate two different **input strategies**:
 
-- **Raw Stream**: Direct raw feature values.  
-- **Targeted Stream**: Feature values conditioned on labels (using PLE-T & DecisionTreeEncoder).  
+1. **Raw Stream**: Direct raw feature values.  
+2. **Targeted Stream**: Feature values conditioned on labels (using PLE-T & DecisionTreeEncoder).
+      - On Embeddings for Numerical Features in Tabular Deep Learning
+      - Winning the KDD cup orange challenge with ensemble selection
 
 We also explore their **combinations**, such as **DFC** and **CD+CE**.
 
