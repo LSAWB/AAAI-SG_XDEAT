@@ -4,7 +4,7 @@ Abstract: We propose SG-XDEAT (Sparsity-Guided Cross-Dimensional and Cross-Encod
 
 ## 📂 Repository Structure
 ```
-XDEAT-Tabular-Learning/
+SG-XDEAT Tabular Learning ( AAAI )/
 ├── Supplementary_Material/                   
 │ ├── Experiments/
 │   │ ├── ASSA/
