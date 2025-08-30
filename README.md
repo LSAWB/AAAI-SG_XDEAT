@@ -39,30 +39,41 @@ For each dataset, we evaluate:
 
 In this experiment, we evaluate four different **model variants**:
 
-3. **Direct**  ( CDFC )
+1. **Direct**  ( CDFC )
    - ** Self-Attention ** on all representations.
 
-1. **Cross-Dim only**  ( CD )
+2. **Cross-Dim only**  ( CD )
    - Uses only the **Cross-Dim** component in SG-XDEAT.
    - Consider dependencies among features.
 
-2. **Cross-Enc only**  ( CE )
+3. **Cross-Enc only**  ( CE )
    - Uses only the **Cross-Enc** component in SG-XDEAT.
    - Consider dependencies among encodings.
   
-3. **Cross-Dim + Cross-Enc**  ( CD+CE )
+4. **Cross-Dim + Cross-Enc**  ( CD+CE )
    - Uses the ** Cross-Dim & Cross-Enc ** component in SG-XDEAT.
    - Consider both dependencies among features and encodings.
 
 The corresponding code is located in **`Supplementary_Material/Experiments/Architectural Comparison`**
 
-### 🔀 Final Results
+### 🏆 Final Results
 ![](Figure/Ablation.png)
 
 ---
 ### 🎯 Input Strategy
-![](Figure/Input_Strategy.png)
+In this experiment, we evaluate two different **input strategies**:
+
+- **Raw Stream**: Direct raw feature values.  
+- **Targeted Stream**: Feature values conditioned on labels (using PLE-T & DecisionTreeEncoder).  
+
+We also explore their **combinations**, such as **DFC** and **CD+CE**.
+
+### 🏆 Final Results
+![Input Strategy Results](Figure/Input_Strategy.png)
 
 ---
 ### ✂️ Sparsity
+
+
+### 🏆 Final Results
 ![](Figure/ASSA.png)
