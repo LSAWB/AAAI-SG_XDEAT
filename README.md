@@ -24,11 +24,13 @@ SG-XDEAT Tabular Learning/
 ## 📊 Experiments
 ### 🔑 Main Results
 We use **five datasets**: `AD`, `CA`, `HI`, `GE`, and `GE`.  
-The corresponding code is located in **`Supplementary_Material/Experiments/Performance Comparison`**.  
+![](Figure/Data_Stat.png)
 
 For each dataset, we evaluate:  
 - **6 benchmark models**  
 - **Our proposed method: SG-XDEAT**
+
+The corresponding code is located in **`Supplementary_Material/Experiments/Performance Comparison`**.  
 
 ### 🏆 Final Results
 ![](Figure/Performance.png)
