@@ -68,7 +68,6 @@ In this experiment, we evaluate two types of **input strategies**:
 
 2. **Targeted Stream**  
    - Feature values conditioned on labels (using PLE-T & DecisionTreeEncoder).  
-   - Inspired by:
      - *On Embeddings for Numerical Features in Tabular Deep Learning*  
      - *Winning the KDD Cup Orange Challenge with Ensemble Selection*  
 
