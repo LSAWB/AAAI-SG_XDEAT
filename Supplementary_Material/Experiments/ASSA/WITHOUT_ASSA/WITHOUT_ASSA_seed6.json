@@ -1,0 +1,72 @@
+[
+    {
+        "filename": "dataset_ratio0.1_seed6.pkl",
+        "ratio": 0.1,
+        "seed": 6,
+        "test_rmse": 0.257869,
+        "alphas": []
+    },
+    {
+        "filename": "dataset_ratio0.2_seed6.pkl",
+        "ratio": 0.2,
+        "seed": 6,
+        "test_rmse": 0.398591,
+        "alphas": []
+    },
+    {
+        "filename": "dataset_ratio0.3_seed6.pkl",
+        "ratio": 0.3,
+        "seed": 6,
+        "test_rmse": 0.409866,
+        "alphas": []
+    },
+    {
+        "filename": "dataset_ratio0.4_seed6.pkl",
+        "ratio": 0.4,
+        "seed": 6,
+        "test_rmse": 0.48721,
+        "alphas": []
+    },
+    {
+        "filename": "dataset_ratio0.5_seed6.pkl",
+        "ratio": 0.5,
+        "seed": 6,
+        "test_rmse": 0.55532,
+        "alphas": []
+    },
+    {
+        "filename": "dataset_ratio0.6_seed6.pkl",
+        "ratio": 0.6,
+        "seed": 6,
+        "test_rmse": 0.524573,
+        "alphas": []
+    },
+    {
+        "filename": "dataset_ratio0.7_seed6.pkl",
+        "ratio": 0.7,
+        "seed": 6,
+        "test_rmse": 0.506205,
+        "alphas": []
+    },
+    {
+        "filename": "dataset_ratio0.8_seed6.pkl",
+        "ratio": 0.8,
+        "seed": 6,
+        "test_rmse": 0.557489,
+        "alphas": []
+    },
+    {
+        "filename": "dataset_ratio0.9_seed6.pkl",
+        "ratio": 0.9,
+        "seed": 6,
+        "test_rmse": 0.631109,
+        "alphas": []
+    },
+    {
+        "filename": "dataset_ratio1.0_seed6.pkl",
+        "ratio": 1.0,
+        "seed": 6,
+        "test_rmse": 0.662592,
+        "alphas": []
+    }
+]

@@ -1,0 +1,16 @@
+[
+    {
+        "train_min_rmse": 0.3622608184814453,
+        "valid_min_rmse": 0.48986920714378357,
+        "params": {
+            "n_cross_layers": 4,
+            "n_hidden_layers": 3,
+            "layer_size": 474,
+            "hidden_dropout": 0.056143181171427636,
+            "cross_dropout": 0.3208859617629886,
+            "lr": 0.0015508692681531248,
+            "weight_decay": 6.438422658161907e-06,
+            "d_embedding": 245
+        }
+    }
+]

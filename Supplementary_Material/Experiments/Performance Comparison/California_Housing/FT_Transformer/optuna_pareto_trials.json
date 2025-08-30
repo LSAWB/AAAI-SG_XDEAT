@@ -1,0 +1,16 @@
+[
+    {
+        "train_min_rmse": 0.39819204807281494,
+        "valid_min_rmse": 0.4794943630695343,
+        "params": {
+            "n_blocks": 3,
+            "dim_model": 392,
+            "ffn_factor": 1.1039506688367156,
+            "residual_dropout": 0.04891341176903823,
+            "attention_dropout": 0.13780253532840814,
+            "ffn_dropout": 0.1527401996490651,
+            "lr": 0.00032673006474935167,
+            "weight_decay": 1.622146084351642e-06
+        }
+    }
+]

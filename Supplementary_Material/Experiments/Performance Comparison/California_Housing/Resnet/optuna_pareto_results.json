@@ -1,0 +1,72 @@
+[
+    {
+        "trial_id": 0,
+        "params": {
+            "n_blocks": 8,
+            "d_block": 465,
+            "hidden_factor": 1.3856292506977996,
+            "residual_dropout": 0.1691281739681007,
+            "hidden_dropout": 0.030631654880434844,
+            "lr": 8.960722460070247e-05,
+            "weight_decay": 0.00011371576512408706
+        },
+        "test_mean_rmse": 0.4992792308330536,
+        "test_std_rmse": 0.007033791393041611
+    },
+    {
+        "trial_id": 1,
+        "params": {
+            "n_blocks": 6,
+            "d_block": 182,
+            "hidden_factor": 2.0572375519241026,
+            "residual_dropout": 0.46364528265048466,
+            "hidden_dropout": 0.01934345223267553,
+            "lr": 0.004018368740215403,
+            "weight_decay": 0.00012920794707393785
+        },
+        "test_mean_rmse": 0.48863837122917175,
+        "test_std_rmse": 0.006997817195951939
+    },
+    {
+        "trial_id": 2,
+        "params": {
+            "n_blocks": 6,
+            "d_block": 173,
+            "hidden_factor": 2.6261805956461033,
+            "residual_dropout": 0.4333285604136141,
+            "hidden_dropout": 0.04790043121853038,
+            "lr": 0.008138780665686763,
+            "weight_decay": 0.00035206907889164484
+        },
+        "test_mean_rmse": 0.4889141917228699,
+        "test_std_rmse": 0.00928510818630457
+    },
+    {
+        "trial_id": 3,
+        "params": {
+            "n_blocks": 4,
+            "d_block": 255,
+            "hidden_factor": 1.2269597787303526,
+            "residual_dropout": 0.13156706873983026,
+            "hidden_dropout": 0.14139512380796082,
+            "lr": 0.0011424737060746924,
+            "weight_decay": 1.6375873232613357e-05
+        },
+        "test_mean_rmse": 0.4905072748661041,
+        "test_std_rmse": 0.006963220424950123
+    },
+    {
+        "trial_id": 4,
+        "params": {
+            "n_blocks": 7,
+            "d_block": 476,
+            "hidden_factor": 3.132750419786137,
+            "residual_dropout": 0.31373183123061194,
+            "hidden_dropout": 0.0025889724726899654,
+            "lr": 0.00011594601749156198,
+            "weight_decay": 0.0004749802214699747
+        },
+        "test_mean_rmse": 0.4938940405845642,
+        "test_std_rmse": 0.007213327568024397
+    }
+]

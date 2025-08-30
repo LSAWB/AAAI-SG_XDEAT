@@ -1,0 +1,30 @@
+[
+    {
+        "train_max_acc": 0.771270577361317,
+        "valid_max_acc": 0.7325344212136665,
+        "params": {
+            "n_blocks": 4,
+            "dim_model": 384,
+            "ffn_factor": 2.3158660616055204,
+            "residual_dropout": 0.0035566667374805853,
+            "attention_dropout": 0.26767491938343446,
+            "ffn_dropout": 0.12687725779085085,
+            "lr": 8.276353756905834e-05,
+            "weight_decay": 0.000107015015656254
+        }
+    },
+    {
+        "train_max_acc": 0.7639081448901213,
+        "valid_max_acc": 0.7352116267210607,
+        "params": {
+            "n_blocks": 3,
+            "dim_model": 368,
+            "ffn_factor": 0.7995902349385279,
+            "residual_dropout": 0.0035566667374805853,
+            "attention_dropout": 0.18023231086368957,
+            "ffn_dropout": 0.12687725779085085,
+            "lr": 5.786923493264717e-05,
+            "weight_decay": 0.000107015015656254
+        }
+    }
+]

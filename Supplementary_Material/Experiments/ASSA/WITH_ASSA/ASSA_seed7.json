@@ -1,0 +1,232 @@
+[
+    {
+        "filename": "dataset_ratio0.1_seed7.pkl",
+        "ratio": 0.1,
+        "seed": 7,
+        "test_rmse": 0.23776,
+        "alphas": [
+            {
+                "layer": 0,
+                "alpha1": 0.508697,
+                "alpha2": 0.491303
+            },
+            {
+                "layer": 1,
+                "alpha1": 0.507959,
+                "alpha2": 0.492041
+            },
+            {
+                "layer": 2,
+                "alpha1": 0.487163,
+                "alpha2": 0.512837
+            }
+        ]
+    },
+    {
+        "filename": "dataset_ratio0.2_seed7.pkl",
+        "ratio": 0.2,
+        "seed": 7,
+        "test_rmse": 0.341131,
+        "alphas": [
+            {
+                "layer": 0,
+                "alpha1": 0.421481,
+                "alpha2": 0.578519
+            },
+            {
+                "layer": 1,
+                "alpha1": 0.478473,
+                "alpha2": 0.521527
+            },
+            {
+                "layer": 2,
+                "alpha1": 0.492429,
+                "alpha2": 0.507571
+            }
+        ]
+    },
+    {
+        "filename": "dataset_ratio0.3_seed7.pkl",
+        "ratio": 0.3,
+        "seed": 7,
+        "test_rmse": 0.402022,
+        "alphas": [
+            {
+                "layer": 0,
+                "alpha1": 0.461134,
+                "alpha2": 0.538866
+            },
+            {
+                "layer": 1,
+                "alpha1": 0.503838,
+                "alpha2": 0.496162
+            },
+            {
+                "layer": 2,
+                "alpha1": 0.496086,
+                "alpha2": 0.503914
+            }
+        ]
+    },
+    {
+        "filename": "dataset_ratio0.4_seed7.pkl",
+        "ratio": 0.4,
+        "seed": 7,
+        "test_rmse": 0.432647,
+        "alphas": [
+            {
+                "layer": 0,
+                "alpha1": 0.421108,
+                "alpha2": 0.578892
+            },
+            {
+                "layer": 1,
+                "alpha1": 0.496977,
+                "alpha2": 0.503023
+            },
+            {
+                "layer": 2,
+                "alpha1": 0.507209,
+                "alpha2": 0.492791
+            }
+        ]
+    },
+    {
+        "filename": "dataset_ratio0.5_seed7.pkl",
+        "ratio": 0.5,
+        "seed": 7,
+        "test_rmse": 0.500132,
+        "alphas": [
+            {
+                "layer": 0,
+                "alpha1": 0.33998,
+                "alpha2": 0.66002
+            },
+            {
+                "layer": 1,
+                "alpha1": 0.493964,
+                "alpha2": 0.506036
+            },
+            {
+                "layer": 2,
+                "alpha1": 0.498811,
+                "alpha2": 0.501189
+            }
+        ]
+    },
+    {
+        "filename": "dataset_ratio0.6_seed7.pkl",
+        "ratio": 0.6,
+        "seed": 7,
+        "test_rmse": 0.546356,
+        "alphas": [
+            {
+                "layer": 0,
+                "alpha1": 0.45661,
+                "alpha2": 0.54339
+            },
+            {
+                "layer": 1,
+                "alpha1": 0.509135,
+                "alpha2": 0.490865
+            },
+            {
+                "layer": 2,
+                "alpha1": 0.483015,
+                "alpha2": 0.516985
+            }
+        ]
+    },
+    {
+        "filename": "dataset_ratio0.7_seed7.pkl",
+        "ratio": 0.7,
+        "seed": 7,
+        "test_rmse": 0.625596,
+        "alphas": [
+            {
+                "layer": 0,
+                "alpha1": 0.451368,
+                "alpha2": 0.548632
+            },
+            {
+                "layer": 1,
+                "alpha1": 0.492603,
+                "alpha2": 0.507397
+            },
+            {
+                "layer": 2,
+                "alpha1": 0.511808,
+                "alpha2": 0.488192
+            }
+        ]
+    },
+    {
+        "filename": "dataset_ratio0.8_seed7.pkl",
+        "ratio": 0.8,
+        "seed": 7,
+        "test_rmse": 0.537545,
+        "alphas": [
+            {
+                "layer": 0,
+                "alpha1": 0.451757,
+                "alpha2": 0.548243
+            },
+            {
+                "layer": 1,
+                "alpha1": 0.50782,
+                "alpha2": 0.49218
+            },
+            {
+                "layer": 2,
+                "alpha1": 0.449878,
+                "alpha2": 0.550122
+            }
+        ]
+    },
+    {
+        "filename": "dataset_ratio0.9_seed7.pkl",
+        "ratio": 0.9,
+        "seed": 7,
+        "test_rmse": 0.555333,
+        "alphas": [
+            {
+                "layer": 0,
+                "alpha1": 0.437631,
+                "alpha2": 0.562369
+            },
+            {
+                "layer": 1,
+                "alpha1": 0.471279,
+                "alpha2": 0.528721
+            },
+            {
+                "layer": 2,
+                "alpha1": 0.523639,
+                "alpha2": 0.476361
+            }
+        ]
+    },
+    {
+        "filename": "dataset_ratio1.0_seed7.pkl",
+        "ratio": 1.0,
+        "seed": 7,
+        "test_rmse": 0.573265,
+        "alphas": [
+            {
+                "layer": 0,
+                "alpha1": 0.36347,
+                "alpha2": 0.63653
+            },
+            {
+                "layer": 1,
+                "alpha1": 0.489237,
+                "alpha2": 0.510763
+            },
+            {
+                "layer": 2,
+                "alpha1": 0.497343,
+                "alpha2": 0.502657
+            }
+        ]
+    }
+]

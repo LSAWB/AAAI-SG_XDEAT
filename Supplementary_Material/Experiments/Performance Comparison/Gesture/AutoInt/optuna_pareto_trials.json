@@ -1,0 +1,14 @@
+[
+    {
+        "train_max_acc": 0.8361823361823362,
+        "valid_max_acc": 0.6329113924050633,
+        "params": {
+            "n_layers": 6,
+            "d_token": 36,
+            "residual_dropout": 0.021142033717964193,
+            "attention_dropout": 0.3039607325178976,
+            "lr": 0.0009662315938177327,
+            "weight_decay": 1.3379782818450287e-05
+        }
+    }
+]

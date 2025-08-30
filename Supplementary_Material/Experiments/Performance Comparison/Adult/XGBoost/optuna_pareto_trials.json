@@ -1,0 +1,62 @@
+[
+    {
+        "train_max_acc": 0.879914004914005,
+        "valid_max_acc": 0.8757868877629357,
+        "params": {
+            "max_depth": 3,
+            "min_child_weight": 1.231264268908236e-07,
+            "subsample": 0.5994747729942216,
+            "learning_rate": 0.0965447789485863,
+            "colsample_bylevel": 0.7205028099869131,
+            "colsample_bytree": 0.9713005130927683,
+            "gamma": 2.0860762258617097e-05,
+            "lambda": 2.0005262988739295e-05,
+            "alpha": 0.001284670850947334
+        }
+    },
+    {
+        "train_max_acc": 0.891661547911548,
+        "valid_max_acc": 0.8730231844004299,
+        "params": {
+            "max_depth": 10,
+            "min_child_weight": 0.12342652068799514,
+            "subsample": 0.5406137780931559,
+            "learning_rate": 0.08733355509691033,
+            "colsample_bylevel": 0.7301141561885174,
+            "colsample_bytree": 0.624124474007536,
+            "gamma": 0.01967944099075322,
+            "lambda": 20.013140263019363,
+            "alpha": 0.01975571953198243
+        }
+    },
+    {
+        "train_max_acc": 0.8773418304668305,
+        "valid_max_acc": 0.8762475049900199,
+        "params": {
+            "max_depth": 3,
+            "min_child_weight": 1.4244656473358222e-05,
+            "subsample": 0.6098400179664036,
+            "learning_rate": 0.0965447789485863,
+            "colsample_bylevel": 0.7076927743244237,
+            "colsample_bytree": 0.9713005130927683,
+            "gamma": 1.1843263367815136e-07,
+            "lambda": 2.0005262988739295e-05,
+            "alpha": 6.575348260769239e-07
+        }
+    },
+    {
+        "train_max_acc": 0.8870162776412777,
+        "valid_max_acc": 0.8747121142330723,
+        "params": {
+            "max_depth": 6,
+            "min_child_weight": 0.0021214560650008036,
+            "subsample": 0.7193987147630889,
+            "learning_rate": 0.28363137663627264,
+            "colsample_bylevel": 0.7231245247094313,
+            "colsample_bytree": 0.5282703762272768,
+            "gamma": 2.0651710584973574e-06,
+            "lambda": 2.669356509760061e-06,
+            "alpha": 0.07051718653746013
+        }
+    }
+]

@@ -1,0 +1,18 @@
+[
+    {
+        "trial_id": 0,
+        "params": {
+            "max_depth": 9,
+            "min_child_weight": 4.134727641357941e-08,
+            "subsample": 0.8018963254354204,
+            "learning_rate": 0.03582278926200719,
+            "colsample_bylevel": 0.8487153352921863,
+            "colsample_bytree": 0.7747763687859206,
+            "gamma": 6.487542871174578e-08,
+            "lambda": 1.5609949426561507e-06,
+            "alpha": 1.6709343241346172e-05
+        },
+        "test_mean_rmse": 0.4509785568755788,
+        "test_std_rmse": 0.008998385866455128
+    }
+]

@@ -1,0 +1,58 @@
+[
+    {
+        "trial_id": 0,
+        "params": {
+            "n_blocks": 6,
+            "d_block": 512,
+            "hidden_factor": 1.2775097987844055,
+            "residual_dropout": 0.059332372694665236,
+            "hidden_dropout": 0.0499448867759153,
+            "lr": 6.198698503660906e-05,
+            "weight_decay": 2.5458644136590704e-06
+        },
+        "test_mean_accuarcy": 0.6497552742616033,
+        "test_std_accuarcy": 0.006794291924023239
+    },
+    {
+        "trial_id": 1,
+        "params": {
+            "n_blocks": 3,
+            "d_block": 399,
+            "hidden_factor": 1.1639295010676909,
+            "residual_dropout": 0.2543174389791393,
+            "hidden_dropout": 0.22289426410816016,
+            "lr": 0.0010795939021132877,
+            "weight_decay": 0.00015894662017195663
+        },
+        "test_mean_accuarcy": 0.649113924050633,
+        "test_std_accuarcy": 0.013199563970987642
+    },
+    {
+        "trial_id": 2,
+        "params": {
+            "n_blocks": 5,
+            "d_block": 422,
+            "hidden_factor": 3.258761672076105,
+            "residual_dropout": 0.30926670323611855,
+            "hidden_dropout": 0.05985943600189508,
+            "lr": 0.0003854751051149001,
+            "weight_decay": 1.665394555887646e-06
+        },
+        "test_mean_accuarcy": 0.6571139240506328,
+        "test_std_accuarcy": 0.008118546969278342
+    },
+    {
+        "trial_id": 3,
+        "params": {
+            "n_blocks": 6,
+            "d_block": 422,
+            "hidden_factor": 3.258761672076105,
+            "residual_dropout": 0.06375449592632015,
+            "hidden_dropout": 0.05985943600189508,
+            "lr": 0.00011948793596770664,
+            "weight_decay": 0.00019126943077013643
+        },
+        "test_mean_accuarcy": 0.6545822784810127,
+        "test_std_accuarcy": 0.01041644228781467
+    }
+]

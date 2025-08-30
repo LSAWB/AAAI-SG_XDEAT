@@ -1,0 +1,15 @@
+[
+    {
+        "trial_id": 0,
+        "params": {
+            "n_layers": 5,
+            "d_token": 56,
+            "residual_dropout": 0.1447894348093097,
+            "attention_dropout": 0.09829034464312192,
+            "lr": 0.0006385991769984637,
+            "weight_decay": 1.8277546518862024e-05
+        },
+        "test_mean_rmse": 0.4894835352897644,
+        "test_std_rmse": 0.00891430675983429
+    }
+]

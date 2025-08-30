@@ -1,0 +1,86 @@
+[
+    {
+        "trial_id": 0,
+        "params": {
+            "n_layers": 2,
+            "layer_size": 82,
+            "dropout": 0.16813200352901542,
+            "weight_decay": 0.0009514387963250237,
+            "lr": 0.002860478427633035
+        },
+        "test_mean_accuarcy": 0.7251742308346084,
+        "test_std_accuarcy": 0.0028891021405521734
+    },
+    {
+        "trial_id": 1,
+        "params": {
+            "n_layers": 7,
+            "layer_size": 233,
+            "dropout": 0.2534569151988638,
+            "weight_decay": 1.5790975288584338e-06,
+            "lr": 0.000714225883597566
+        },
+        "test_mean_accuarcy": 0.7230358660547341,
+        "test_std_accuarcy": 0.003339436584363996
+    },
+    {
+        "trial_id": 2,
+        "params": {
+            "n_layers": 8,
+            "layer_size": 511,
+            "dropout": 0.10125193810593935,
+            "weight_decay": 2.892887492375691e-05,
+            "lr": 1.7425647953589255e-05
+        },
+        "test_mean_accuarcy": 0.7127553969063403,
+        "test_std_accuarcy": 0.0033870343046513533
+    },
+    {
+        "trial_id": 3,
+        "params": {
+            "n_layers": 3,
+            "layer_size": 386,
+            "dropout": 0.25973046043306175,
+            "weight_decay": 0.0004916889521381697,
+            "lr": 0.006801863813000129
+        },
+        "test_mean_accuarcy": 0.7218391976882543,
+        "test_std_accuarcy": 0.0025194509092179656
+    },
+    {
+        "trial_id": 4,
+        "params": {
+            "n_layers": 3,
+            "layer_size": 244,
+            "dropout": 0.4573766980527305,
+            "weight_decay": 2.740481342247341e-06,
+            "lr": 0.002860478427633035
+        },
+        "test_mean_accuarcy": 0.724691483936767,
+        "test_std_accuarcy": 0.0029114894414821683
+    },
+    {
+        "trial_id": 5,
+        "params": {
+            "n_layers": 3,
+            "layer_size": 434,
+            "dropout": 0.24109359587263568,
+            "weight_decay": 0.0009381717281844503,
+            "lr": 0.0007463155856975248
+        },
+        "test_mean_accuarcy": 0.7219547849736528,
+        "test_std_accuarcy": 0.002643842638389226
+    },
+    {
+        "trial_id": 6,
+        "params": {
+            "n_layers": 2,
+            "layer_size": 511,
+            "dropout": 0.10125193810593935,
+            "weight_decay": 2.892887492375691e-05,
+            "lr": 0.0006289157785230225
+        },
+        "test_mean_accuarcy": 0.7156824749277579,
+        "test_std_accuarcy": 0.0036875146762121234
+    }
+]

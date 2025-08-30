@@ -1,0 +1,17 @@
+[
+    {
+        "train_max_acc": 1.0,
+        "valid_max_acc": 0.6924050632911393,
+        "params": {
+            "max_depth": 10,
+            "min_child_weight": 0.0025292330554293136,
+            "subsample": 0.864549539436456,
+            "learning_rate": 0.14132674320803393,
+            "colsample_bylevel": 0.9339762552708586,
+            "colsample_bytree": 0.6319778199775303,
+            "gamma": 7.45622251603457e-08,
+            "lambda": 0.004746746088923085,
+            "alpha": 0.011135722362878912
+        }
+    }
+]

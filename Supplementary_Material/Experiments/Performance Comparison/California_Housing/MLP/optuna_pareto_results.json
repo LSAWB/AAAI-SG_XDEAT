@@ -1,0 +1,50 @@
+[
+    {
+        "trial_id": 0,
+        "params": {
+            "n_layers": 4,
+            "layer_size": 436,
+            "dropout": 0.09575283136600304,
+            "weight_decay": 0.00086380216737539,
+            "lr": 0.002375677944030218
+        },
+        "test_mean_rmse": 0.5048788785934448,
+        "test_std_rmse": 0.009488408453762531
+    },
+    {
+        "trial_id": 1,
+        "params": {
+            "n_layers": 2,
+            "layer_size": 492,
+            "dropout": 0.05080024785256165,
+            "weight_decay": 0.0008270801443677773,
+            "lr": 0.001928710283409926
+        },
+        "test_mean_rmse": 0.5130982995033264,
+        "test_std_rmse": 0.008345626294612885
+    },
+    {
+        "trial_id": 2,
+        "params": {
+            "n_layers": 5,
+            "layer_size": 406,
+            "dropout": 0.09026294032490834,
+            "weight_decay": 1.30774813975526e-06,
+            "lr": 0.003347163996494178
+        },
+        "test_mean_rmse": 0.505721926689148,
+        "test_std_rmse": 0.0075297122821211815
+    },
+    {
+        "trial_id": 3,
+        "params": {
+            "n_layers": 2,
+            "layer_size": 283,
+            "dropout": 0.2521721947069372,
+            "weight_decay": 6.417378315251884e-05,
+            "lr": 0.0020024071092836025
+        },
+        "test_mean_rmse": 0.4992961585521698,
+        "test_std_rmse": 0.008003001101315022
+    }
+]

@@ -1,0 +1,17 @@
+[
+    {
+        "trial_id": 0,
+        "params": {
+            "n_cross_layers": 4,
+            "n_hidden_layers": 3,
+            "layer_size": 474,
+            "hidden_dropout": 0.056143181171427636,
+            "cross_dropout": 0.3208859617629886,
+            "lr": 0.0015508692681531248,
+            "weight_decay": 6.438422658161907e-06,
+            "d_embedding": 245
+        },
+        "test_mean_rmse": 0.4877041280269623,
+        "test_std_rmse": 0.00901748612523079
+    }
+]

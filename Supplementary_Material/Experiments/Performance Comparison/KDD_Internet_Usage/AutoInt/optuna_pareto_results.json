@@ -1,0 +1,28 @@
+[
+    {
+        "trial_id": 0,
+        "params": {
+            "n_layers": 3,
+            "d_token": 52,
+            "residual_dropout": 0.14476827922489274,
+            "attention_dropout": 0.1718080772027178,
+            "lr": 0.000191211499632567,
+            "weight_decay": 1.5949837340521186e-06
+        },
+        "test_mean_accuarcy": 0.8934388394329048,
+        "test_std_accuarcy": 0.006871515048293188
+    },
+    {
+        "trial_id": 1,
+        "params": {
+            "n_layers": 4,
+            "d_token": 40,
+            "residual_dropout": 0.18076830029044946,
+            "attention_dropout": 0.12198406062945094,
+            "lr": 0.0008102568403576193,
+            "weight_decay": 0.000504665482699735
+        },
+        "test_mean_accuarcy": 0.8984503791625453,
+        "test_std_accuarcy": 0.004429617158768349
+    }
+]

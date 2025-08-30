@@ -1,0 +1,17 @@
+[
+    {
+        "trial_id": 0,
+        "params": {
+            "n_blocks": 3,
+            "dim_model": 392,
+            "ffn_factor": 1.1039506688367156,
+            "residual_dropout": 0.04891341176903823,
+            "attention_dropout": 0.13780253532840814,
+            "ffn_dropout": 0.1527401996490651,
+            "lr": 0.00032673006474935167,
+            "weight_decay": 1.622146084351642e-06
+        },
+        "test_mean_rmse": 0.47239741683006287,
+        "test_std_rmse": 0.008724378421902657
+    }
+]

@@ -1,0 +1,67 @@
+[
+    {
+        "train_max_acc": 0.7602747366575832,
+        "valid_max_acc": 0.7342554818969913,
+        "params": {
+            "n_blocks": 8,
+            "d_block": 262,
+            "hidden_factor": 3.696233983260955,
+            "residual_dropout": 0.33783396862352183,
+            "hidden_dropout": 0.14632161274115651,
+            "lr": 0.005611625973127016,
+            "weight_decay": 0.00016115325708859995
+        }
+    },
+    {
+        "train_max_acc": 0.7695813612532071,
+        "valid_max_acc": 0.7311320754716981,
+        "params": {
+            "n_blocks": 4,
+            "d_block": 354,
+            "hidden_factor": 1.8157095816921232,
+            "residual_dropout": 0.3090282358926941,
+            "hidden_dropout": 0.029042090739197057,
+            "lr": 0.0031045694284968168,
+            "weight_decay": 1.3505096527255685e-05
+        }
+    },
+    {
+        "train_max_acc": 0.7883220984526143,
+        "valid_max_acc": 0.7274349821519633,
+        "params": {
+            "n_blocks": 1,
+            "d_block": 438,
+            "hidden_factor": 2.0990333741044447,
+            "residual_dropout": 0.12058209330329095,
+            "hidden_dropout": 0.3763707280222456,
+            "lr": 0.000714205328195413,
+            "weight_decay": 0.00011089472611973628
+        }
+    },
+    {
+        "train_max_acc": 0.7695813612532071,
+        "valid_max_acc": 0.7311320754716981,
+        "params": {
+            "n_blocks": 4,
+            "d_block": 354,
+            "hidden_factor": 1.8157095816921232,
+            "residual_dropout": 0.3090282358926941,
+            "hidden_dropout": 0.029042090739197057,
+            "lr": 0.0031045694284968168,
+            "weight_decay": 1.3505096527255685e-05
+        }
+    },
+    {
+        "train_max_acc": 0.7679080811461172,
+        "valid_max_acc": 0.7334268230494646,
+        "params": {
+            "n_blocks": 2,
+            "d_block": 243,
+            "hidden_factor": 2.8131525079464694,
+            "residual_dropout": 0.3090282358926941,
+            "hidden_dropout": 0.26762172393262396,
+            "lr": 0.0031045694284968168,
+            "weight_decay": 1.3505096527255685e-05
+        }
+    }
+]

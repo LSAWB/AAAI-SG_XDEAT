@@ -1,0 +1,26 @@
+[
+    {
+        "train_max_acc": 0.9247062461348176,
+        "valid_max_acc": 0.9035846724351051,
+        "params": {
+            "n_layers": 3,
+            "d_token": 52,
+            "residual_dropout": 0.14476827922489274,
+            "attention_dropout": 0.1718080772027178,
+            "lr": 0.000191211499632567,
+            "weight_decay": 1.5949837340521186e-06
+        }
+    },
+    {
+        "train_max_acc": 0.9128014842300557,
+        "valid_max_acc": 0.9079110012360939,
+        "params": {
+            "n_layers": 4,
+            "d_token": 40,
+            "residual_dropout": 0.18076830029044946,
+            "attention_dropout": 0.12198406062945094,
+            "lr": 0.0008102568403576193,
+            "weight_decay": 0.000504665482699735
+        }
+    }
+]

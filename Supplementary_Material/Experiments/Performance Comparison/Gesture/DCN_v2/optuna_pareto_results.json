@@ -1,0 +1,32 @@
+[
+    {
+        "trial_id": 0,
+        "params": {
+            "n_cross_layers": 2,
+            "n_hidden_layers": 3,
+            "layer_size": 466,
+            "hidden_dropout": 0.12739988556737208,
+            "cross_dropout": 0.1642219536788998,
+            "lr": 0.0002143577759016409,
+            "weight_decay": 2.081319648350512e-06,
+            "d_embedding": 511
+        },
+        "test_mean_accuarcy": 0.6342616033755275,
+        "test_std_accuarcy": 0.013071618275094723
+    },
+    {
+        "trial_id": 1,
+        "params": {
+            "n_cross_layers": 8,
+            "n_hidden_layers": 3,
+            "layer_size": 431,
+            "hidden_dropout": 0.16695518923206637,
+            "cross_dropout": 0.11998510720729683,
+            "lr": 0.0009424172238581667,
+            "weight_decay": 8.159391480654412e-05,
+            "d_embedding": 405
+        },
+        "test_mean_accuarcy": 0.6166413502109704,
+        "test_std_accuarcy": 0.010394541958123163
+    }
+]

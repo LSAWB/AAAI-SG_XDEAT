@@ -1,0 +1,62 @@
+[
+    {
+        "trial_id": 0,
+        "params": {
+            "n_blocks": 1,
+            "dim_model": 464,
+            "ffn_factor": 1.7392162075991093,
+            "residual_dropout": 0.15744664409798975,
+            "attention_dropout": 0.03802786317331852,
+            "ffn_dropout": 0.28570717607632223,
+            "lr": 0.0002855863645171057,
+            "weight_decay": 6.252955165001942e-05
+        },
+        "test_mean_accuarcy": 0.6766919831223629,
+        "test_std_accuarcy": 0.009147367924075228
+    },
+    {
+        "trial_id": 1,
+        "params": {
+            "n_blocks": 4,
+            "dim_model": 456,
+            "ffn_factor": 1.836341040626111,
+            "residual_dropout": 0.01624267816877578,
+            "attention_dropout": 0.123370808885926,
+            "ffn_dropout": 0.16735238496492538,
+            "lr": 0.0001227031770622524,
+            "weight_decay": 2.285045711878731e-05
+        },
+        "test_mean_accuarcy": 0.6772658227848102,
+        "test_std_accuarcy": 0.009075964079103476
+    },
+    {
+        "trial_id": 2,
+        "params": {
+            "n_blocks": 1,
+            "dim_model": 360,
+            "ffn_factor": 1.9162105162014273,
+            "residual_dropout": 0.18648121633122616,
+            "attention_dropout": 0.05992778018511252,
+            "ffn_dropout": 0.13071626566123268,
+            "lr": 0.0006874919901169968,
+            "weight_decay": 0.00010315879102377098
+        },
+        "test_mean_accuarcy": 0.6748016877637131,
+        "test_std_accuarcy": 0.009161557038278412
+    },
+    {
+        "trial_id": 3,
+        "params": {
+            "n_blocks": 4,
+            "dim_model": 296,
+            "ffn_factor": 0.7713963979283268,
+            "residual_dropout": 0.039101410199044145,
+            "attention_dropout": 0.14630175411345286,
+            "ffn_dropout": 0.2128819462377291,
+            "lr": 0.0004231063012852584,
+            "weight_decay": 2.69795134513853e-05
+        },
+        "test_mean_accuarcy": 0.6660928270042195,
+        "test_std_accuarcy": 0.008319562407949045
+    }
+]

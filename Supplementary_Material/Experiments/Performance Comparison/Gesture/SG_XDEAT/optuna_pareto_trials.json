@@ -1,0 +1,66 @@
+[
+    {
+        "train_accuarcy": 0.9406457739791073,
+        "valid_accuarcy": 0.6981012658227848,
+        "params": {
+            "dim_model": 240,
+            "ffn_factor": 0.718108246541202,
+            "att_dropout": 0.17250595155889598,
+            "res_dropout": 0.06392510776851093,
+            "ffn_dropout": 0.1324900883238459,
+            "lr": 0.0003019301851149187,
+            "weight_decay": 1.031198658509463e-05,
+            "cross_blocks": 2,
+            "ple_min_samples_leaf": 12,
+            "ple_min_impurity_decrease": 0.001639548077383343
+        }
+    },
+    {
+        "train_accuarcy": 0.9906616017727129,
+        "valid_accuarcy": 0.6740506329113924,
+        "params": {
+            "dim_model": 400,
+            "ffn_factor": 1.455064421073096,
+            "att_dropout": 0.4509318211713391,
+            "res_dropout": 0.13283832386705627,
+            "ffn_dropout": 0.16658813151068652,
+            "lr": 0.00019878482174684906,
+            "weight_decay": 1.1673996734754832e-06,
+            "cross_blocks": 4,
+            "ple_min_samples_leaf": 85,
+            "ple_min_impurity_decrease": 7.212047456751624e-09
+        }
+    },
+    {
+        "train_accuarcy": 0.9484013928458372,
+        "valid_accuarcy": 0.6835443037974683,
+        "params": {
+            "dim_model": 400,
+            "ffn_factor": 1.154777647789857,
+            "att_dropout": 0.1338859031836115,
+            "res_dropout": 0.16992799019835883,
+            "ffn_dropout": 0.16658813151068652,
+            "lr": 0.00019878482174684906,
+            "weight_decay": 5.1199461311203876e-06,
+            "cross_blocks": 2,
+            "ple_min_samples_leaf": 85,
+            "ple_min_impurity_decrease": 1.6318875957390619e-09
+        }
+    },
+    {
+        "train_accuarcy": 0.9715099715099715,
+        "valid_accuarcy": 0.6791139240506329,
+        "params": {
+            "dim_model": 344,
+            "ffn_factor": 2.299815481912983,
+            "att_dropout": 0.20001591861930507,
+            "res_dropout": 0.078251714242906,
+            "ffn_dropout": 0.21598004788905895,
+            "lr": 0.0006859610567074463,
+            "weight_decay": 2.165913622729786e-06,
+            "cross_blocks": 2,
+            "ple_min_samples_leaf": 68,
+            "ple_min_impurity_decrease": 4.825583755219119e-07
+        }
+    }
+]
