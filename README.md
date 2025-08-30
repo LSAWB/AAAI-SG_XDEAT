@@ -30,12 +30,29 @@ For each dataset, we evaluate:
 - **6 benchmark models**  
 - **Our proposed method: SG-XDEAT**
 
-### 🔀 Final Results
+### 🏆 Final Results
 ![](Figure/Performance.png)
 
 ---
 ### 🔀 Architectural Variants
 ![](Figure/Ablation_fig.png)
+In this experiment, we evaluate two different **model variants**:
+
+1. **Cross-Dim only**  
+   - Uses only the **Cross-Dim** component.
+   - Consider dependencies among features.
+
+2. **Cross-Enc only**  
+   - Uses only the **Cross-Enc** component.
+   - Consider dependencies among encodings.
+  
+3. **Cross-Dim + Cross-Enc**  
+   - Uses the ** Cross-Dim & Cross-Enc ** component.
+   - Consider both dependencies among features and encodings.
+
+The corresponding code is located in **`Supplementary_Material/Experiments/Architectural Comparison`**
+
+### 🔀 Final Results
 ![](Figure/Ablation.png)
 
 ---
