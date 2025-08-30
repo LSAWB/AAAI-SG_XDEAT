@@ -36,17 +36,18 @@ For each dataset, we evaluate:
 ---
 ### 🔀 Architectural Variants
 ![](Figure/Ablation_fig.png)
+
 In this experiment, we evaluate two different **model variants**:
 
-1. **Cross-Dim only**  
+1. **Cross-Dim only**  ( CD )
    - Uses only the **Cross-Dim** component.
    - Consider dependencies among features.
 
-2. **Cross-Enc only**  
+2. **Cross-Enc only**  ( CE )
    - Uses only the **Cross-Enc** component.
    - Consider dependencies among encodings.
   
-3. **Cross-Dim + Cross-Enc**  
+3. **Cross-Dim + Cross-Enc**  ( CD+CE )
    - Uses the ** Cross-Dim & Cross-Enc ** component.
    - Consider both dependencies among features and encodings.
 
