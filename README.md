@@ -35,6 +35,7 @@ For each dataset, we evaluate:
 
 ---
 ### 🔀 Architectural Variants
+![](Figure/Ablation_fig.png)
 ![](Figure/Ablation.png)
 
 ---
