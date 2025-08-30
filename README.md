@@ -4,17 +4,18 @@ Abstract: We propose SG-XDEAT (Sparsity-Guided Cross-Dimensional and Cross-Encod
 
 ## 📂 Repository Structure
 ```
-SG-XDEAT Tabular Learning ( AAAI )/
-├── Supplementary_Material/                   
-│ ├── Experiments/
-│   │ ├── ASSA/
-│   │ ├── Architectural Comparison/
-│   │ ├── Input Strategies/
-│   │ ├── Performance Comparison/
-│ ├── Appendix.pdf              
-│ ├── ReproducibilityChecklist.pdf   
+SG-XDEAT Tabular Learning/
+├── Supplementary_Material/            # Supplementary resources
+│ ├── Experiments/                     # Experimental results
+│ │ ├── ASSA/                          # Sparsity Related experiments
+│ │ ├── Architectural Comparison/      # Comparison across model architectures (  )
+│ │ ├── Input Strategies/              # Different input handling strategies ( Raw & Targeted )
+│ │ ├── Performance Comparison/        # Performance benchmarking
+│ │
+│ ├── Appendix.pdf                     # Appendix
+│ ├── ReproducibilityChecklist.pdf     # Checklist
 │
-├── Figure/                           # Thesis Figures
-├── SG-XDEAT.pdf                      # Results  
-├── README.md
+├── Figure/                            # Figures & Tables
+├── SG-XDEAT.pdf                       # Conference Paper
+├── README.md                          # Documentation
 ```
