@@ -37,18 +37,21 @@ For each dataset, we evaluate:
 ### 🔀 Architectural Variants
 ![](Figure/Ablation_fig.png)
 
-In this experiment, we evaluate two different **model variants**:
+In this experiment, we evaluate four different **model variants**:
+
+3. **Direct**  ( CDFC )
+   - ** Self-Attention ** on all representations.
 
 1. **Cross-Dim only**  ( CD )
-   - Uses only the **Cross-Dim** component.
+   - Uses only the **Cross-Dim** component in SG-XDEAT.
    - Consider dependencies among features.
 
 2. **Cross-Enc only**  ( CE )
-   - Uses only the **Cross-Enc** component.
+   - Uses only the **Cross-Enc** component in SG-XDEAT.
    - Consider dependencies among encodings.
   
 3. **Cross-Dim + Cross-Enc**  ( CD+CE )
-   - Uses the ** Cross-Dim & Cross-Enc ** component.
+   - Uses the ** Cross-Dim & Cross-Enc ** component in SG-XDEAT.
    - Consider both dependencies among features and encodings.
 
 The corresponding code is located in **`Supplementary_Material/Experiments/Architectural Comparison`**
