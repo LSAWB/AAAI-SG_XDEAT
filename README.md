@@ -20,3 +20,15 @@ SG-XDEAT Tabular Learning/
 ├── SG-XDEAT.pdf                       # Conference Paper
 ├── README.md                          # Documentation
 ```
+
+## 📊 Experiments
+### 🏆 Main Results
+We use **five datasets**: `AD`, `CA`, `HI`, `GE`, and `GE`.  
+The corresponding code is located in **`Supplementary_Material/Experiments/Performance Comparison`**.  
+
+For each dataset, we evaluate:  
+- **6 benchmark models**  
+- **Our proposed method: SG-XDEAT**
+
+### 🏆 Final Results
+![](Figure/Performance.png)
