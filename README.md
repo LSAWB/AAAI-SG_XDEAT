@@ -71,16 +71,18 @@ In this experiment, we evaluate two types of **input strategies**:
 
 We also investigate their **combinations**, such as **DFC** and **CD+CE**.
 
+The corresponding code is located in **`Supplementary_Material/Experiments/Input Strategies`**
+
 ### 🏆 Final Results
 ![Input Strategy Results](Figure/Input_Strategy.png)
 
 ---
 ### ✂️ Sparsity
-We create a synthetic regression benchmark where only a subset of features is informative. Each sample `x` is a vector of dimension `d = 100`, and a proportion `rho` in `{0.5, 0.6, ..., 1.0}` of the features are informative. 
+We construct a synthetic regression benchmark where only a subset of features is informative. Each sample `x` is a vector of dimension `d = 100`, with a proportion `ρ` in `{0.5, 0.6, ..., 1.0}` of features being informative.  
 
-The first `d_useful = floor(rho * d)` dimensions form the informative subvector `x_useful`, while the remaining features act as distractors. We focus on `rho >= 0.5` to ensure a meaningful signal-to-noise ratio for attention-based models.
+In our model, we enhance the attention mechanism by adding a **squared-ReLU activation path**, instead of relying solely on softmax.  
 
-
+The corresponding code can be found in **`Supplementary_Material/Experiments/ASSA`**.
 
 ### 🏆 Final Results
 ![](Figure/ASSA.png)
