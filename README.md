@@ -76,6 +76,7 @@ We also investigate their **combinations**, such as **DFC** and **CD+CE**.
 
 ---
 ### ✂️ Sparsity
+We create a synthetic regression benchmark where only a subset of features is informative. Each sample \(x \in \mathbb{R}^d\) with \(d = 100\) has a proportion \(\rho \in \{0.5, 0.6, \dots, 1.0\}\) of informative features. The first \(d_\text{useful} = \lfloor \rho \cdot d \rfloor\) dimensions form the informative subvector \(x_\text{useful}\), while the remaining features act as distractors. We focus on \(\rho \ge 0.5\) to ensure a meaningful signal-to-noise ratio for attention-based models.
 
 
 ### 🏆 Final Results
